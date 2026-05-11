@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        
+
+        h1 {
+            text-align: center;
+        }
+
+        .perfil {
+            text-align: center;
+        }
+
+        .perfil img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<main>
+<section>
+    <footer>
+    <div class="contenedor">
+        
+        <h1>Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#acerca">Acerca de mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <h2>Emilce Milagros Barroso</h2>
+        <p><strong>Estudiante</strong></p>
+          
+        <img src="images/fotoperfil.png"
+             alt="Foto de perfil"
+            width="200">
+        <section id="acerca">    
+         <p> Soy una estudiante cursando mi último año de secundaria,
+            queriendo obtener mi título como técnica informática.
+            Actualmente estoy por iniciar mis prácticas profesionales.
+        </p>
+       </section> 
+       <section id="habilidades">
+           <article>
+        <h2>Habilidades Técnicas</h2>
+      <table border="3">
+        <thead>
+            <tr> 
+            <th>Habilidad</th>
+            <th>Nivel</th>
+            </tr> 
+             </thead>
+             <tbody>
+                 <tr>
+                 <td> Harmado de PC</td>
+                 <td> INTERMEDIO</td>
+                </tr>
+             </tbody>
+             <tbody>
+                <tr>
+                    <td> Instalación de S.O</td>
+                    <td> INTERMEDIO</td>
+                   </tr>
+             </tbody>
+             <tbody>                 <tr>
+                <td> Ofimatica</td>
+                <td> Medio/alto</td>
+               </tr></tbody>
+               <tbody>
+                <tr>
+                    <td> Programación y Microntrollador</td>
+                    <td> INTERMEDIO</td>
+                   </tr>
+                </article>
+             </tbody>
+             <tbody>      
+      </table>
+    </section>
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <section id="mis-proyectos">
+            <h2>Mis Proyectos</h2>
+        
+            <iframe
+                src="https://www.youtube.com/embed/0UTyKQYOKV8" 
+                title="Video sobre desarrollo web" 
+                allowfullscreen>
+            </iframe>
+        
+        </section>
+        <p></p>
+    </section>
+         <h2>Contactos</h2>
+        
+    <section id="contacto">
+             <form id="testf" action="#" method="POST">
+                 <fieldset>
+                 <p> 
+                    <legend> <h1>Datos Personales</h1> </legend>
+                    <label for="nombre"> Nombre y apellido </label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre y apellido" required/>
+                 </p>
+
+                 <p> 
+                    <label for="Email"> Correo electronico </label><br>
+                    <input type="email" id="email" name="email" placeholder="Tu@email.com" required/>
+                 </p>
+
+                 <p> 
+                    <label for="Telefono"> Telefono de contacto </label><br>
+                    <input type="telefono" id="telefono" name="telefono" placeholder=" " required/>
+                 </p>
+
+                 <p> 
+                   
+                    <label for="Mensaje"> Deja tu mensaje </label><br>
+                    <textarea id="telef" name="telefono" rows="6" cols="48" placeholder=" Contame sobre tu proyecto " required/> 
+                 </textarea>
+                 </p>
+
+                 <button type="submit" >Enviar</button>
+                 </fieldset>
+
+             </form>
+
+
+    </div>
+</footer>
+</section>
+</main>
+</body>
+</html>
