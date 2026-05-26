@@ -1,124 +1,191 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
+
 <body>
+
 <header>
     <h1>Portafolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#acerca">Acerca de mí</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-       
+
+    <nav>
+        <ul>
+            <li><a href="#acerca">Acerca de mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
 </header>
+
 <main class="contenedor">
-      <section id="habilidades"></section>   
+
+    <!-- SECCION PRESENTACION -->
+    <section id="acerca">
+
         <h2>Emilce Milagros Barroso</h2>
-        <p><strong>Estudiante</strong></p>
-          
-    <figure>
-        <img src="images/fotoperfil.png"
-             alt="Foto de perfil"
-            width="200">
+
+        <figure>
+            <img
+                src="images/fotoperfil.png"
+                alt="Foto de perfil"
+                width="200">
+
             <figcaption>Foto de perfil</figcaption>
-    </figure>      
-         <p> Soy una estudiante cursando mi último año de secundaria,
+        </figure>
+
+        <p>
+            Soy una estudiante cursando mi último año de secundaria,
             queriendo obtener mi título como técnica informática.
             Actualmente estoy por iniciar mis prácticas profesionales.
         </p>
-       </section> 
-       <section id="habilidades">
-           <article>
-        <h2>Habilidades Técnicas</h2>
-      <table border="3">
-        <thead>
-            <tr> 
-            <th>Habilidad</th>
-            <th>Nivel</th>
-            </tr> 
-             </thead>
-             <tbody>
-                 <tr>
-                 <td> Harmado de PC</td>
-                 <td> INTERMEDIO</td>
-                </tr>
-             </tbody>
-             <tbody>
-                <tr>
-                    <td> Instalación de S.O</td>
-                    <td> INTERMEDIO</td>
-                   </tr>
-             </tbody>
-             <tbody>                 <tr>
-                <td> Ofimatica</td>
-                <td> Medio/alto</td>
-               </tr></tbody>
-               <tbody>
-                <tr>
-                    <td> Programación y Microntrollador</td>
-                    <td> INTERMEDIO</td>
-                   </tr>
-                </article>
-             </tbody>
-             <tbody>      
-      </table>
+
     </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section id="habilidades">
+
+        <article>
+
+            <h2>Habilidades Técnicas</h2>
+
+            <table border="3">
+
+                <thead>
+                    <tr>
+                        <th>Habilidad</th>
+                        <th>Nivel</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Armado de PC</td>
+                        <td>Intermedio</td>
+                    </tr>
+
+                    <tr>
+                        <td>Instalación de S.O</td>
+                        <td>Intermedio</td>
+                    </tr>
+
+                    <tr>
+                        <td>Ofimática</td>
+                        <td>Medio/alto</td>
+                    </tr>
+
+                    <tr>
+                        <td>Programación y Microcontrolador</td>
+                        <td>Intermedio</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </article>
+
+    </section>
+
+    <!-- SECCION PROYECTOS -->
     <section id="proyectos">
+
         <h2>Proyectos</h2>
+
         <section id="mis-proyectos">
+
             <h2>Mis Proyectos</h2>
-        
+
             <iframe
-                src="https://www.youtube.com/embed/0UTyKQYOKV8" 
-                title="Video sobre desarrollo web" 
+                src="https://www.youtube.com/embed/0UTyKQYOKV8"
+                title="Video sobre desarrollo web"
                 allowfullscreen>
             </iframe>
-        
+
         </section>
-        <p></p>
+
     </section>
-         <h2>Contactos</h2>
-        
+
+    <!-- SECCION CONTACTO -->
     <section id="contacto">
-             <form id="testf" action="#" method="POST">
-                 <fieldset>
-                 <p> 
-                    <legend> <h1>Datos Personales</h1> </legend>
-                    <label for="nombre"> Nombre y apellido </label><br>
-                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre y apellido" required/>
-                 </p>
 
-                 <p> 
-                    <label for="Email"> Correo electronico </label><br>
-                    <input type="email" id="email" name="email" placeholder="Tu@email.com" required/>
-                 </p>
+        <h2>Contactos</h2>
 
-                 <p> 
-                    <label for="Telefono"> Telefono de contacto </label><br>
-                    <input type="telefono" id="telefono" name="telefono" placeholder=" " required/>
-                 </p>
+        <form id="testf" action="#" method="POST">
 
-                 <p> 
-                   
-                    <label for="Mensaje"> Deja tu mensaje </label><br>
-                    <textarea id="telef" name="telefono" rows="6" cols="48" placeholder=" Contame sobre tu proyecto " required/> 
-                 </textarea>
-                 </p>
+            <fieldset>
 
-                 <button type="submit" >Enviar</button>
-                 </fieldset>
+                <legend>Datos Personales</legend>
 
-             </form>
+                <p>
+                    <label for="nombre">Nombre y apellido</label><br>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Tu nombre y apellido"
+                        aria-label="Nombre y apellido"
+                        required>
+                </p>
+
+                <p>
+                    <label for="email">Correo electrónico</label><br>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Tu@email.com"
+                        aria-label="Correo electrónico"
+                        required>
+                </p>
+
+                <p>
+                    <label for="telefono">Teléfono de contacto</label><br>
+
+                    <input
+                        type="tel"
+                        id="telefono"
+                        name="telefono"
+                        placeholder="Tu teléfono"
+                        aria-label="Teléfono de contacto"
+                        required>
+                </p>
+
+                <p>
+                    <label for="mensaje">Deja tu mensaje</label><br>
+
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="6"
+                        cols="48"
+                        placeholder="Contame sobre tu proyecto"
+                        aria-label="Mensaje"
+                        required>
+                    </textarea>
+                </p>
+
+                <button type="submit">Enviar</button>
+
+            </fieldset>
+
+        </form>
+
     </section>
-<footer></footer> 
 
 </main>
+
+<footer>
+    <p>© 2026 Emilce Milagros Barroso - Portfolio Web</p>
+</footer>
+
 </body>
 </html>
